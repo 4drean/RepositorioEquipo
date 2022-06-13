@@ -1,5 +1,8 @@
 # RepositorioEquipo
-Integrantes del equipo
+
+-Salas Diego
+-Villanueva Adrian
+-Cortez Kevyn
 
 # Proyecto band-ultrasonic Smart  :fa-floppy-o:
 Iniciativa: Un werable que sirve para ayudar a las personas que tienen dificultades para ver y ubicarse espacialmente con respecto a los objetos de alrededor, junto con algunas funcionalidades extra que funcionan con conexión a internet
