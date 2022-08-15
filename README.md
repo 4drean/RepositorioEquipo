@@ -7,6 +7,30 @@
 # Proyecto band-ultrasonic Smart  :fa-floppy-o:
 Iniciativa: Un werable que sirve para ayudar a las personas que tienen dificultades para ver y ubicarse espacialmente con respecto a los objetos de alrededor, junto con algunas funcionalidades extra que funcionan con conexión a internet
 
+# Foftware empleado 
+
+- ARDUINO IDE- SOFTWARE GRATIS
+- APP INVENTOR- SOFTWARE GRATIS
+- TINKERCAD- SOFTWARE GRATIS
+
+# Materiales
+- ESP32- cantidad 1
+- Bateria lipo 200mh -cantidad 1
+- Modulo RTC cantidad 1
+- Cables jumpers -Cantidad 20
+- Sensor Ultrasonico -Cantidad 1
+- Bocina -Cantidad 1
+- Amplificador- Cantidad 1
+- Modulo de vibración -Cantidad 1
+- Modulo de carga - Cantidad 1
+- Switch -Cantidad 1
+- Correa de goma para reloj -1
+- Sensor DHT11 -1
+- Carcasa de plástico-  1
+- Cinta adhesiva -1
+- Colaloca -1
+- Sistema de protección de aire para los materiales 
+
 ## Epicas  :fa-github-square:
 ###### Detección de distancia a objetos y mandar una señal sensible al usuario
 
