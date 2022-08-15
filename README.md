@@ -42,7 +42,7 @@ Iniciativa: Un werable que sirve para ayudar a las personas que tienen dificulta
 
 [![circuito.png](https://i.postimg.cc/2SVWdzzS/circuito.png)](https://postimg.cc/0z1rP1MT)
 
-## Protoripo sprint 1
+## Prototipo sprint 1
 
 [![band-Diseno.jpg](https://i.postimg.cc/vmJhXPD6/band-Diseno.jpg)](https://postimg.cc/xkPL13v0)
 
