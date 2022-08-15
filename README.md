@@ -36,33 +36,9 @@ Iniciativa: Un werable que sirve para ayudar a las personas que tienen dificulta
 
 
 
-### BACKLOG  :fa-list-alt:
+### CIRCUITO  :fa-list-alt:
 
-|	id  |Actividad |  Estimación |   Priorización |   Sprint 											
-	| ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |											
-|		|		|		|				|		|
-|	1.1	|	Análisis previo de materiales y componentes	|	2 dias 	|	Debería	|	1	|	Saber que materiales vamos a utilizar	|
-|	1.2	|	Análisis de como se realizará, que lenguajes y tecnología se utilizará	|	2 dias	|	Debería	|	1	|	Saber que lenguajes y tecnologías ocuparemos	|
-|	1.3	|	Capacitación software para modelo en 3D	|	1 dia	|	Debería	|	1	|	Mostrar habilidades de modelado 3D	|
-|		|		|		|		|		|		|
-|	1.4	|	Adquisición de los materiales cotizando las mejores opciones	|	2 dias 	|	Debería	|	1	|	Tener los materiales necesarios para el proyecto en el primer sprint	|
-|	1.5	|	Conexión de los materiales para la pulsera 	|	 Medio dia 	|	Debería	|	1	|	Tener preparado el hadware de nuestro werable	|
-|	1.6	|	Conexión de la fuente de alimentación de energía recargable	|	1 día	|	Podría	|	1	|	Tener batería recargable en nuestro bateria del werable	|
-|	1.7	|	Diseño de la pulsera para 	|	3 dias	|	Podría	|	1	|	Tener el diseño de la pulsera en software 3D	|
-|	1.8	|	Programación de la funcionalidad, para detectar y vibrar cuando hay algo cerca	|	1 dia 	|	Debe	|	1	|	Que nuestra pulsera detecte un objeto cercano y que vibre	|
-|	2.1	|	Tener el diseño terminado considerando los nuevos componentes necesarios para el segundo sprint	|	2 dias	|	Debería	|	2	|	Que el diseño se muestre en un software de modelado 3D	|
-|	2.2	|	Planeación y análisis de la aplicación móvil 	|	2 dias	|	Deberia	|	2	|	Se deberá contar con los requerimientos, pensar en la tecnología de programación y documentarla	|
-|		|		|		|	 	|		|		|
-|	2.3	|	Programación del reloj de la banda	|	2 dias	|	Deberia	|	2	|	Que funcione el reloj interno funcione	|
-|	2.4	|	Agregación y conexión de los nuevos componentes, como micrófono, bocina, conexión de bluetod	|	2 dias	|	Debe	|	2	|	Aquí se probará la conexión y la programación, haciendo que el reloj diga la hora	|
-|	2.5	|	Programación para detectar la voz del usuario con las palabras clave	|	2 dias	|	Deberia	|	2	|	Que la pulcera detecte parabra clave	|
-|	2.6	|	Programación para que la banda diga la hora 	|	1 dia	|	Deberia	|	2	|	Que la pulcera pueda decir la hora con palabra clave	|
-|	2.7	|	Diseño de aplicación móvil para Android  Para modificar la hora 	|	2 dia	|	Deberia	|	2	|	Wireframes de la aplicación que sean agradables y que muestre la funcionalidad	|
-|	3	|	Programación de la aplicación para modificar la hora de la banda	|	5 dias	|	Deberia	|	3	|		|
-|	3.1	|	Conexión de la banda con el dispositivo móvil	|	1 dia	|	Deberia 	|	3	|	Que la funcionalidad funcione correctamente conectando al celular modificando la hora	|
-|	3.2	|	Análisis para implementar la funcionalidad de llamadas	|	2 dias	|	Podria	|	3	|	Que se tenga el diseño de la modificación de la app móvil	|
-|	3.3	|	Implementación de la programación para la funcionalidad de llamada	|	5 dias	|	Podría 	|	3	|	Que el código sea el correcto para la función	|
-|	3.4	|	Pruebas de funcionalidad	|	1 dia	|	podría	|	3	|		|
+[![circuito.png](https://i.postimg.cc/2SVWdzzS/circuito.png)](https://postimg.cc/0z1rP1MT)
 
 ## Diseno de la banda para el primer sprint :fa-magic:
 
