@@ -34,7 +34,9 @@ Iniciativa: Un werable que sirve para ayudar a las personas que tienen dificulta
 -  programación de una pequeña aplicación para modificar la hora conectada por bluethod 
 
 
+###TABLERO
 
+[![Tablero.png](https://i.postimg.cc/8PwcXfYX/Tablero.png)](https://postimg.cc/KRkmRjxt)
 
 ### CIRCUITO  :fa-list-alt:
 
