@@ -34,7 +34,7 @@ Iniciativa: Un werable que sirve para ayudar a las personas que tienen dificulta
 -  programación de una pequeña aplicación para modificar la hora conectada por bluethod 
 
 
-###TABLERO
+### TABLERO  :fa-list-alt:
 
 [![Tablero.png](https://i.postimg.cc/8PwcXfYX/Tablero.png)](https://postimg.cc/KRkmRjxt)
 
@@ -42,9 +42,16 @@ Iniciativa: Un werable que sirve para ayudar a las personas que tienen dificulta
 
 [![circuito.png](https://i.postimg.cc/2SVWdzzS/circuito.png)](https://postimg.cc/0z1rP1MT)
 
-## Diseno de la banda para el primer sprint :fa-magic:
+## Protoripo sprint 1
 
 [![band-Diseno.jpg](https://i.postimg.cc/vmJhXPD6/band-Diseno.jpg)](https://postimg.cc/xkPL13v0)
+
+## Prototipo sprint 2
+
+[![PROTOTIPO2.jpg](https://i.postimg.cc/NF0gXpx6/PROTOTIPO2.jpg)](https://postimg.cc/WFQLLmCz)
+
+## Prototipo sprint 3
+[![PROTOTIPO-SP2.jpg](https://i.postimg.cc/jjBBsvDg/PROTOTIPO-SP2.jpg)](https://postimg.cc/R3Qgd7QK)
 
 ## Diseno de conexion de energia para la banda :fa-magic:
 [![diseno-Energia.png](https://i.postimg.cc/0NYKRZcS/diseno-Energia.png)](https://postimg.cc/1gz3D0xR)
