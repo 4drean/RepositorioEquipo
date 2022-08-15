@@ -26,13 +26,17 @@ Iniciativa: Un werable que sirve para ayudar a las personas que tienen dificulta
 -  Acomodo de los componentes
 
 
-###### Interacción con la banda por medio del micrófono para saber la hora 
+###### Interacción con la banda por aplicación
 
  Programación de reloj
 -  Sensibilidad por micrófono para escuchar pregunta de la hora y programación para entender las palabras clave
 -  Programación para que el reloj diga la hora actual
--  programación de una pequeña aplicación para modificar la hora conectada por bluethod 
+-  Programación para que la banda diga la temperatura
 
+###### applicación
+
+- Que la aplicacíon emita la informacíon a la esp para accionar que diga la hora y la temperatura
+- Que la aplicaíon reciba la información de la esp de los sensores para que muestre los datos en pantalla
 
 ### TABLERO  :fa-list-alt:
 
