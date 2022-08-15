@@ -34,11 +34,7 @@ Iniciativa: Un werable que sirve para ayudar a las personas que tienen dificulta
 -  programación de una pequeña aplicación para modificar la hora conectada por bluethod 
 
 
-###### Llamar algún contacto por medio de voz, conectando con el celular.
 
-- Programar conexión por bluetod para acceder a los contac-ts 
--  Llamar a un contacto con la voz
--  Contestar llamada con voz
 
 ### BACKLOG  :fa-list-alt:
 
