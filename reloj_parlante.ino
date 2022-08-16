@@ -1,68 +1,78 @@
+//librerias importadas
 #include <SPI.h>
-
 #include <Wire.h>
-#include "RTClib.h"
-#include "Talkie.h"
-#include "Vocab_US_Large.h"
-#include "Vocab_US_TI99.h"
-#include "BluetoothSerial.h"
-#include "DHT.h"
+#include "RTClib.h"                     //libreria para el reloj
+#include "Talkie.h"                    //libreria para la voz
+#include "Vocab_US_Large.h"           //libreria de parabras
+#include "Vocab_US_TI99.h"             //libreria de palabras
+#include "BluetoothSerial.h"            //libreria de bluetooth
+#include "DHT.h"                        //libreria del sensor de temperatura
+
+//pin de temperatura
 
 #define DHTPIN 27
 #define DHTTYPE DHT11
 DHT dht(DHTPIN, DHTTYPE);
 
+//definicion de la variable del reloj
+
 RTC_DS1307 rtc;
+
+//variable de la libreria de voz
 Talkie voice;
 
-int TRIG = 13;      // trigger en pin 10
-int ECO = 12;      // echo en pin 9
-int Vibracion = 14;      // Vibracion en pin 3
+//Pines sensor ultrasonico
+int TRIG = 13;      // trigger en pin 13
+int ECO = 12;      // echo en pin 12
+int Vibracion = 14;      // Vibracion en pin 14
 int DURACION;
 int DISTANCIA;
 
+//definicion de variables de temperatura y humedad
 int new_t;
 float t;
 float h;
 
+//definicion de conexion bluetooth
 #if !defined(CONFIG_BT_ENABLED) || !defined(CONFIG_BLUEDROID_ENABLED)
 #error Bluetooth is not enabVibracion! Please run `make menuconfig` to and enable it
 #endif
 
+//definicion de serial bluetooth emisor
 BluetoothSerial SerialBT;
 
 void setup() {
-  // put your setup code here, to run once:
 
   pinMode(TRIG, OUTPUT);   // trigger como salida
   pinMode(ECO, INPUT);    // echo como entrada
   pinMode(Vibracion, OUTPUT);   // Vibracion como salida
 
   Serial.begin(9600);
-  SerialBT.begin("ESP32test");
-  Serial.println("The device started, now you can pair it with bluetooth!");
-
+  SerialBT.begin("ESP32test"); //nombre de bluetooth 
   dht.begin();
 
+  //SONIDO DE INICIO DE ESP
   voice.say(sp4_POWER);
   voice.say(sp4_WINDOWS);
-
+ //PRINT RELOJ
  if (! rtc.begin()) {
     Serial.println("Couldn't find RTC");
     while (1);
   }
-  //rtc.adjust(DateTime(2022,8,11,11,05,11)); 
+  //rtc.adjust(DateTime(2022,8,11,11,05,11)); //Configuración de hora, solo se configura una vez y se comenta 
 
 }
 
 void loop() {
-  h = dht.readHumidity();
+  
+  h = dht.readHumidity();//humedad
   t = dht.readTemperature();//temperatura
   if (isnan(t)) {
-    Serial.println("Failed to read from DHT sensor!");
+    Serial.println("Failed to read from DHT sensor!");//si falla el sensor DHT
     return;
   }
-  new_t=(int)t;
+  new_t=(int)t;//temperatura en entero
+  // se manda por bluetooth la informacion de humedad y temperatura
   SerialBT.print("Temperatura: ");
   SerialBT.print(new_t);
   SerialBT.print(", Humedad: ");
@@ -83,12 +93,14 @@ void loop() {
   SerialBT.println("cm");
   delay(200);       // demora entre datos
   
-
+//la app bluetooth retorna una letra por reconocimiento de voz
+// si se dice Hola, manda una B y la esp dice Hola
     char X=SerialBT.read();
     if(X=='B'){
         voice.say(spt_HELLO);
         X='Z';
     }
+//A partir de menos 50 cm de distancia comienza a bibrar de diferente forma
   if (DISTANCIA <= 50 && DISTANCIA>=31){ 
     digitalWrite(Vibracion, HIGH);      
     delay(DISTANCIA * 5);   
@@ -105,6 +117,10 @@ void loop() {
     digitalWrite(Vibracion, LOW);     
     }
 
+  
+ //la app bluetooth retorna una letra por reconocimiento de voz
+// si se dice Dime la Hora, manda una A y la esp dice LA HORA
+  
   if (DISTANCIA < 5||X=='A'){ 
         DateTime now = rtc.now();
         int v=0;
@@ -421,7 +437,10 @@ void loop() {
       X='Z';
       delay (2000);
   }
-
+  
+  //la app bluetooth retorna una letra por reconocimiento de voz
+// si se dice Como esta la temperatura, manda una C y la esp dice la temperatura
+  
   if(X=='C'){
      voice.say(sp3_THE);
      voice.say(sp3_TEMPERATURE);
