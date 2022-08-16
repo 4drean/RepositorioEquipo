@@ -9,6 +9,12 @@ Iniciativa: Un werable que sirve para ayudar a las personas que tienen dificulta
 
 # Foftware empleado 
 
+- RTClib.h                      - libreria para el reloj
+- Talkie.h                      - libreria para la voz
+- Vocab_US_Large.h              - libreria de parabras
+- Vocab_US_TI99.h               - libreria de palabras
+- BluetoothSerial.h             - libreria de bluetooth
+- DHT.h                         - libreria del sensor de temperatura- 
 - ARDUINO IDE- SOFTWARE GRATIS
 - APP INVENTOR- SOFTWARE GRATIS
 - TINKERCAD- SOFTWARE GRATIS
@@ -49,6 +55,9 @@ Iniciativa: Un werable que sirve para ayudar a las personas que tienen dificulta
 -  Materiales 
 -  Acomodo de los componentes
 
+###### Arquitectura 
+
+[![arquitectura.jpg](https://i.postimg.cc/yx48N1SQ/arquitectura.jpg)](https://postimg.cc/r0jknLjx)
 
 ###### Interacción con la banda por aplicación
 
