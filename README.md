@@ -4,6 +4,13 @@
 -Villanueva Adrian
 -Cortez Kevyn
 
+# VIDEO
+
+
+https://drive.google.com/file/d/1H2Iq91ct-QLbn-zP4MbyaMEwb_Ed-eAn/view?usp=drivesdk
+
+[![Video.jpg](https://i.postimg.cc/9FqQsNrX/Video.jpg)](https://postimg.cc/9rC27bds)
+
 # Proyecto band-ultrasonic Smart  :fa-floppy-o:
 Iniciativa: Un werable que sirve para ayudar a las personas que tienen dificultades para ver y ubicarse espacialmente con respecto a los objetos de alrededor, junto con algunas funcionalidades extra que funcionan con conexión a internet
 
@@ -55,10 +62,6 @@ Iniciativa: Un werable que sirve para ayudar a las personas que tienen dificulta
 -  Materiales 
 -  Acomodo de los componentes
 
-###### Arquitectura 
-
-[![arquitectura.jpg](https://i.postimg.cc/yx48N1SQ/arquitectura.jpg)](https://postimg.cc/r0jknLjx)
-
 ###### Interacción con la banda por aplicación
 
  Programación de reloj
@@ -70,6 +73,11 @@ Iniciativa: Un werable que sirve para ayudar a las personas que tienen dificulta
 
 - Que la aplicacíon emita la informacíon a la esp para accionar que diga la hora y la temperatura
 - Que la aplicaíon reciba la información de la esp de los sensores para que muestre los datos en pantalla
+
+
+### ARQUITECTURA
+
+[![arquitectura.jpg](https://i.postimg.cc/yx48N1SQ/arquitectura.jpg)](https://postimg.cc/r0jknLjx)
 
 ### TABLERO  :fa-list-alt:
 
